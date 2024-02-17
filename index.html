@@ -4,121 +4,163 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food Delivery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <a href="./index.html">
-        <img src="./images/logo-min.png" alt="Logo" width="66" height="52" />
-      </a>
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Service</a></li>
-          <li><a href="">Menu</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-      </nav>
-      <button type="button">Order Now</button>
+    <header class="header">
+      <div class="container">
+        <a href="./index.html" class="logo">
+          <img src="./images/logo-min.png" alt="Logo" width="66" height="52" />
+        </a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a href="" class="nav-list-link">Home</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="" class="nav-list-link">About</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="" class="nav-list-link">Service</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="" class="nav-list-link">Menu</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="" class="nav-list-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <button type="button" class="btn green-btn">Order Now</button>
+      </div>
     </header>
     <main>
-      <section>
-        <h1>Enjoy Your Favorite Food From Anywhere</h1>
-        <p>
-          With just a few clicks, you can have your favorite meals delivered
-          straight to your doorstep, no matter where you are. Order now and
-          enjoy a hassle-free and delicious meal from the comfort of your own
-          home.
-        </p>
-        <button type="button">Order Now</button>
-        <img src="images/salad-min.png" alt="Salad" width="528" height="528" />
+      <section class="hero-section">
+        <div class="container hero-container">
+          <div class="hero-wrapper">
+            <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
+            <p class="hero-text">
+              With just a few clicks, you can have your favorite meals delivered
+              straight to your doorstep, no matter where you are. Order now and
+              enjoy a hassle-free and delicious meal from the comfort of your
+              own home.
+            </p>
+            <button type="button" class="btn green-btn">Order Now</button>
+          </div>
+          <div class="hero-img">
+            <img
+              src="images/salad-min.png"
+              alt="Salad"
+              width="528"
+              height="528"
+            />
+          </div>
+        </div>
       </section>
-      <section>
-        <img
-          src="./images/apple-min.png"
-          alt="Apple"
-          width="396"
-          height="502"
-        />
-        <h2>What’s Special About Our Offerings</h2>
-        <p>
-          With our platform, you can browse through a diverse selection of
-          cuisines and local restaurants, and choose from a variety of dishes
-          that cater to your specific taste buds.
-        </p>
-        <ul>
-          <li>
-            <h3>Fastest Delivery</h3>
-            <p>
-              Our advanced logistics system and dedicated delivery partners
-              ensure that your meals are delivered to you within 30-minutes.
+      <section class="about-section">
+        <div class="container about-container">
+          <div class="img-wrapper">
+            <img
+              src="./images/apple-min.png"
+              alt="Apple"
+              width="396"
+              height="502"
+            />
+          </div>
+          <div class="about-text-wrapper">
+            <h2 class="section-title">What’s Special About Our Offerings</h2>
+            <p class="section-text">
+              With our platform, you can browse through a diverse selection of
+              cuisines and local restaurants, and choose from a variety of
+              dishes that cater to your specific taste buds.
             </p>
-          </li>
-          <li>
-            <h3>Easy To Order</h3>
-            <p>
-              You can browse through a wide variety of cuisines and restaurants,
-              select your favorite meals, and place your order in just a few
-              clicks.
-            </p>
-          </li>
-        </ul>
-        <button type="button">Order Now</button>
+            <ul class="advantage-list">
+              <li class="advantage-list-item">
+                <h3 class="advantage-list-title">Fastest Delivery</h3>
+                <p class="advantage-list-text">
+                  Our advanced logistics system and dedicated delivery partners
+                  ensure that your meals are delivered to you within 30-minutes.
+                </p>
+              </li>
+              <li class="advantage-list-item">
+                <h3 class="advantage-list-title">Easy To Order</h3>
+                <p class="advantage-list-text">
+                  You can browse through a wide variety of cuisines and
+                  restaurants, select your favorite meals, and place your order
+                  in just a few clicks.
+                </p>
+              </li>
+            </ul>
+            <button type="button" class="white-btn btn">Order Now</button>
+          </div>
+        </div>
       </section>
 
-      <section>
-        <h2>Some of Our Favorites</h2>
-        <p>Looking for something delicious?</p>
-        <ul>
-          <li>
-            <img
-              src="./images/gamburger-min.png"
-              alt="Hamburger"
-              width="315"
-              height="315"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/pasta-min.png"
-              alt="Pasta"
-              width="315"
-              height="315"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/pizza-min.png"
-              alt="Pizza"
-              width="315"
-              height="315"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/chicken-min.png"
-              alt="Chicken"
-              width="315"
-              height="315"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/salat-min.png"
-              alt="Salad"
-              width="315"
-              height="315"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/borshch-min.png"
-              alt="Borshch"
-              width="315"
-              height="315"
-            />
-          </li>
-        </ul>
+      <section class="favorites">
+        <div class="container">
+          <h2 class="favorites-title">Some of Our Favorites</h2>
+          <p class="favorites-text">Looking for something delicious?</p>
+          <ul class="favorites-list">
+            <li class="favorites-list-item">
+              <img
+                src="./images/gamburger-min.png"
+                alt="Hamburger"
+                width="315"
+                height="315"
+              />
+            </li>
+            <li class="favorites-list-item">
+              <img
+                src="./images/pasta-min.png"
+                alt="Pasta"
+                width="315"
+                height="315"
+              />
+            </li>
+            <li class="favorites-list-item">
+              <img
+                src="./images/pizza-min.png"
+                alt="Pizza"
+                width="315"
+                height="315"
+              />
+            </li>
+            <li class="favorites-list-item">
+              <img
+                src="./images/chicken-min.png"
+                alt="Chicken"
+                width="315"
+                height="315"
+              />
+            </li>
+            <li class="favorites-list-item">
+              <img
+                src="./images/salat-min.png"
+                alt="Salad"
+                width="315"
+                height="315"
+              />
+            </li>
+            <li class="favorites-list-item">
+              <img
+                src="./images/borshch-min.png"
+                alt="Borshch"
+                width="315"
+                height="315"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <section>
         <h2>What our Customers Say</h2>
