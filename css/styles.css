@@ -41,7 +41,6 @@ address {
   border: none;
   font-weight: 500;
   font-size: 13px;
-
   padding: 10px 22px;
 }
 /* #endregion */
@@ -61,8 +60,7 @@ address {
   display: flex;
   gap: 28px;
 }
-.nav-list-item {
-}
+
 .nav-list-link {
   display: block;
   padding: 28px 0;
@@ -157,8 +155,7 @@ address {
   display: flex;
   column-gap: 67px;
 }
-.advantage-list-item {
-}
+
 .advantage-list-title {
   font-size: 18px;
   line-height: 1.4;
@@ -211,4 +208,112 @@ address {
   justify-content: center;
   align-items: center;
 }
+/* #endregion */
+
+/* #region reviews */
+.reviews {
+  padding: 140px 104px 126px 32px;
+  background-color: #ffe550;
+}
+
+.reviews-wrapper {
+  max-width: 1141px;
+}
+.reviews-title {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+.reviews-text {
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+.reviews-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 139px;
+}
+.reviews-list-item {
+  width: calc((100% - 139px) / 2);
+  border-radius: 0 30px 30px 30px;
+  background-color: #fefefe;
+  padding: 14px;
+}
+.reviews-list-item-text {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 41px;
+}
+.review-hero-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.reviewer-avatar-wrapper {
+  padding-top: 2px;
+  padding-bottom: 3px;
+  margin-right: 16px;
+}
+.review-hero-text-container {
+  border-right: 1px solid #7eb101;
+  padding: 10px 18px 3px 0;
+}
+.reviewer-name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 2px;
+}
+.reviewer-description {
+  font-size: 14px;
+  line-height: 1.5;
+}
+/* #endregion */
+
+/* #region subscription */
+.subscribing {
+  padding: 176px 15px 201px 18px;
+}
+
+.subscribe-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.subscribe-text-container {
+  padding: 46px 0 36px;
+  max-width: 638px;
+}
+.subscribe-img-wrapper {
+  max-width: 608px;
+}
+.subscribing-title {
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.subscribing-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  max-width: 517px;
+}
+
+.subscribing-input {
+  border: 0.85px solid #ffe550;
+  border-radius: 30px;
+  padding: 10px;
+  width: 395px;
+  height: 42px;
+  background-color: #fefefe;
+  margin-right: 32px;
+}
+.subscribing-button {
+  border-radius: 30px;
+  padding: 10px 20px;
+  min-width: 103px;
+  height: 42px;
+}
+
+/* #endregion */
+
+/* #region footer */
 /* #endregion */
