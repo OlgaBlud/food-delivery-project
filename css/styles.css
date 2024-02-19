@@ -41,7 +41,7 @@ address {
   border: none;
   font-weight: 500;
   font-size: 13px;
-  padding: 10px 22px;
+  padding: 10px 20px;
 }
 /* #endregion */
 
@@ -58,6 +58,7 @@ address {
 }
 .nav-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 28px;
 }
 
@@ -316,4 +317,78 @@ address {
 /* #endregion */
 
 /* #region footer */
+.footer {
+  padding: 100px 16px 100px 21px;
+}
+
+.footer-links-form-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+.footer-logo-link {
+  margin-right: 143px;
+}
+
+.footer-form-wrapper {
+  margin-left: auto;
+}
+.footer-form {
+  margin-bottom: 12px;
+}
+.form-title {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+.footer-input {
+  border: 0.85px solid #ffe550;
+  border-radius: 30px;
+  padding: 10px;
+  width: 279px;
+  height: 42px;
+  background-color: #fefefe;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #505050;
+  margin-right: 13px;
+}
+
+.footer-btn {
+  border: 0.85px solid #7eb101;
+  width: 103px;
+  height: 42px;
+  line-height: 1.5;
+}
+
+.footer-form-text {
+  font-size: 12px;
+  color: #2c2c2c;
+}
+.service-link {
+  text-decoration: underline;
+  color: #7eb101;
+}
+
+.service-link:hover,
+.service-link:focus {
+  text-decoration: none;
+}
+
+.footer-service-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.rights {
+  font-size: 12px;
+}
 /* #endregion */
