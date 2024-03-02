@@ -41,7 +41,9 @@
             </li>
           </ul>
         </nav>
-        <button type="button" class="btn green-btn">Order Now</button>
+        <button type="button" class="btn green-btn" data-modal-open>
+          Order Now
+        </button>
       </div>
     </header>
 
@@ -302,5 +304,64 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop" data-modal>
+      <div class="modal">
+        <button class="modal-close-btn" type="button" data-modal-close>
+          <svg class="modal-close-icon" width="11" height="11">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Order Form</p>
+        <form class="modal-form">
+          <div class="input-wrapper">
+            <label for="user-name" class="modal-label">Name</label
+            ><input
+              type="text"
+              id="user-name"
+              class="modal-input"
+              placeholder="Your name"
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="user-phone" class="modal-label">Phone number</label
+            ><input
+              type="tel"
+              id="user-phone"
+              class="modal-input"
+              placeholder="+38(0_ _) _ _ _   _ _   _ _"
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="user-email" class="modal-label">E-mail</label>
+            <input
+              type="email"
+              id="user-email"
+              class="modal-input"
+              placeholder="example@gmail.com"
+            />
+          </div>
+          <div class="checkbox-wrapper">
+            <input
+              type="checkbox"
+              class="input-check visually-hidden"
+              id="user-check"
+              value="on"
+            />
+            <label for="user-check" class="label-check">
+              <span class="checkbox">
+                <svg class="icon-check" width="10" height="8">
+                  <use href="./images/icons.svg#icon-tick"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the&nbsp;
+              <a href="" class="check-link">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="modal-send-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
